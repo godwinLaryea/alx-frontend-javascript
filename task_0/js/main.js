@@ -10,10 +10,12 @@ var Student2 = {
     age: 30,
     location: "Kumasi",
 };
+
 var studentList = [Student1, Student2];
 var table = document.createElement("table");
 table.style.width = "50%";
 table.style.borderCollapse = "collapse";
+
 studentList.forEach(function (student) {
     var row = document.createElement("tr");
     var firstNameCell = document.createElement("td");
